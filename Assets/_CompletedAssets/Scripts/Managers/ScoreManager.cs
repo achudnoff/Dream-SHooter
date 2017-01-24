@@ -26,6 +26,7 @@ namespace CompleteProject
         {
             // Set the displayed text to be the word "Score" followed by the score value.
             text.text = "Score: " + score;
+			Debug.Log("Score Updated: " + score);
         }
     }
 }

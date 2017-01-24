@@ -54,7 +54,6 @@ public class PlayerMovement : MonoBehaviour
 	void Animating (float h, float v)
 	{
 		bool walking = h != 0f || v != 0f;
-		Debug.Log("Valuess");
 		anim.SetBool ("IsWalking", walking);
 	}
 
